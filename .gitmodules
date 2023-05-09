@@ -1,0 +1,3 @@
+[submodule "languagePacks"]
+	path = languagePacks
+	url = https://github.com/SaulWyrm/languagePacks.git
