@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OldFluent</string>
+    <string name="tv_results">Результаты</string>
+    <string name="tv_folders">Папки</string>
+    <string name="tv_lists">Списки</string>
+    <string name="btn_addFolder">добавить папку</string>
+    <string name="btn_playAgainAll">Пройти заново</string>
+    <string name="btn_playAgainWrong">Прорешать неправильное</string>
+    <string name="btn_importList">Добавить</string>
+    <string name="btn_startAll">Выбрать все</string>
+    <string name="btn_startSelection">Продолжить с выборкой</string>
+    <string name="btn_startList">Старт</string>
+    <string name="listCfg_tv_showSide">Вопрос</string>
+    <string name="listCfg_tv_ListLength">Сколько слов будет в тесте?</string>
+    <string name="listCfg_tv_TimeTrial">Испытание на время</string>
+    <string name="listCfg_checkbox_TimeReset">Заново</string>
+    <string name="listCfg_radioBtn_Left">Лево</string>
+    <string name="listCfg_radioBtn_Right">Право</string>
+    <string name="listCfg_PauseOnError">Остановится на ошибке</string>
+    <string name="listCfg_UseTextToSpeech">Использовать цифровую читалку</string>
+    <string name="listCfg_radioBtn_SpeakAnswer">Произносить ответы</string>
+    <string name="listCfg_radioBtn_SpeakQuestion">Произносить вопросы</string>
+    <string name="tv_yourAnswer">Ваш ответ</string>
+    <string name="resultComment100">Легче легкого!</string>
+    <string name="resultCommentLess50">Провал года!</string>
+    <string name="createFolderYesOption">Создать папку</string>
+    <string name="createFolderNoOption">Отмена</string>
+    <string name="createFolderDialogTitle">Создайте папку</string>
+    <string name="createFolderDialogMessage">Назовите папку</string>
+    <string name="listImportFilePicker">Выберите csv файл</string>
+    <string name="listImportFileError">Сбой создания файла</string>
+    <string name="folderCreateError">Сбой создания папки</string>
+    <string name="addFileAlert">Пожалуйства, добавьте файл</string>
+    <string name="question">Вопрос</string>
+    <string name="deleteList">Хотите удалить этот список</string>
+    <string name="deleteFolder">Хотите удалить эту папку?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="chooseLang">Выберите язык…</string>
+</resources>

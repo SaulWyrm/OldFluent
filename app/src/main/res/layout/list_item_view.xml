@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    android:layout_margin="7dp"
+    android:background="@drawable/background_round_corners"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="?attr/colorPrimaryContainer">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/showListBtn"
+            android:text="List"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            android:background="?attr/colorPrimaryContainer"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:id="@+id/showListBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/selectList"
+            android:contentDescription="Show lists content"
+            android:background="@drawable/background_circle"
+            app:srcCompat="@android:drawable/ic_menu_view"/>
+
+        <CheckBox
+            android:id="@+id/selectList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:id="@+id/tv_showSide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listCfg_tv_showSide"
+                android:textSize="24sp"/>
+
+            <RadioGroup
+                android:id="@+id/sideRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp">
+
+                <RadioButton
+                    android:id="@+id/radioButtonLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/listCfg_radioBtn_Left"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/listCfg_radioBtn_Right"
+                    android:textSize="18sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_listLength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listCfg_tv_ListLength"
+                android:textSize="24sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:weightSum="8">
+
+                <SeekBar
+                    android:id="@+id/numberOfListItemsSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="100"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/numberOfListItemsSliderLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textAlignment="center"
+                    android:layout_weight="7"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+            <CheckBox
+                android:id="@+id/pauseOnErrorChkBx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/listCfg_PauseOnError"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+            <CheckBox
+                android:id="@+id/useTextToSpeechChkBx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/listCfg_UseTextToSpeech"
+                android:textSize="18sp"/>
+
+            <RadioGroup
+                android:id="@+id/textToSpeechSideRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="30dp">
+
+                <RadioButton
+                    android:id="@+id/radioButtonSpeakQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/listCfg_radioBtn_SpeakQuestion"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonSpeakAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/listCfg_radioBtn_SpeakAnswer"
+                    android:textSize="18sp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/btn_startList"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
