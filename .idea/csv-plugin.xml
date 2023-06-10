@@ -3,13 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\app\src\main\res\raw\animals_chinese_emoji.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\app\src\main\res\raw\animals_english_emoji.csv">
           <value>
             <Attribute>
@@ -17,98 +10,28 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\app\src\main\res\raw\colours_chinese.csv">
+        <entry key="\app\src\main\res\raw\lingala_eng_dialogue.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
             </Attribute>
           </value>
         </entry>
-        <entry key="\app\src\main\res\raw\fruit_english_emoji.csv">
+        <entry key="\app\src\main\res\raw\lingala_phrases_eng.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
             </Attribute>
           </value>
         </entry>
-        <entry key="\app\src\main\res\raw\fruit_german_emoji.csv">
+        <entry key="\app\src\main\res\raw\oldnorse_eng_poeticedda_voluspa.csv">
           <value>
             <Attribute>
-              <option name="separator" value=";" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\app\src\main\res\raw\fruit_japanese_emoji.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\japanese_dates.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\japanese_kanji_grade1.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\japanese_kanji_grade1_pinyin.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\japanese_kanji_grade2.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\japanese_lektion4.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\japanese_lektion6.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\japanese_lektion7.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\japanese_lektion8.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\numbers_chinese.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\app\src\main\res\raw\numbers_german.csv">
+        <entry key="\app\src\main\res\raw\oldnorse_vocabulary_en.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />

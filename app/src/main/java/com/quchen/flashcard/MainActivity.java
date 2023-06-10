@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -143,6 +144,13 @@ public class MainActivity extends AppCompatActivity {
         editor.apply();
     }
 
+    public void goToLibrary(View view) {
+        Intent githubIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/SaulWyrm/languagePacks"));
+        startActivity(githubIntent);
+    }
+
+
+
     // Подгрузить язык из общих предпочтений
     public void loadLocale() {
         SharedPreferences prefs = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
@@ -203,6 +211,10 @@ public class MainActivity extends AppCompatActivity {
         copyFileFromResource(R.raw.oldnorse_eng_poeticedda_voluspa, "Old Norse","Old Norse Voluspa\nENG");
         copyFileFromResource(R.raw.oldnorse_eng_sayings, "Old Norse","Old Norse sayings\nENG");
 
+        copyFileFromResource(R.raw.oldnorse_phrases_rus, "Old Norse","Old Norse phrases\nRUS");
+        copyFileFromResource(R.raw.oldnorse_rus_poeticedda_voluspa, "Old Norse","Old Norse Voluspa\nRUS");
+        copyFileFromResource(R.raw.oldnorse_rus_sayings, "Old Norse","Old Norse sayings\nRUS");
+
         // Niger-Congo family languages
         copyFileFromResource(R.raw.lingala_vocabulary_eng, "Lingala","Lingala vocabulary\nEng");
         copyFileFromResource(R.raw.lingala_phrases_eng, "Lingala","Lingala phrases\nEng");
@@ -212,8 +224,16 @@ public class MainActivity extends AppCompatActivity {
         copyFileFromResource(R.raw.lingala_eng_weekdays, "Lingala","Lingala weekdays\nEng");
         copyFileFromResource(R.raw.lingala_eng_weekdays_transcript, "Lingala","Lingala weekdays transcript\nEng");
 
+        copyFileFromResource(R.raw.lingala_rus_phrases, "Lingala","Lingala phrases\nRUS");
+        copyFileFromResource(R.raw.lingala_rus_dialogue, "Lingala","Lingala dialogue\nRUS");
+        copyFileFromResource(R.raw.lingala_rus_numbers, "Lingala","Lingala numbers\nRUS");
+        copyFileFromResource(R.raw.lingala_rus_dialogue2, "Lingala","Lingala dialogue 2\nRUS");
+        copyFileFromResource(R.raw.lingala_rus_weekdays, "Lingala","Lingala weekdays\nRUS");
+
         // American family languages
         copyFileFromResource(R.raw.miwok_eng_vocabulary, "Miwok","Miwok Numbers\nEng");
+
+        copyFileFromResource(R.raw.miwok_rus_vocabulary, "Miwok","Miwok Numbers\nRUS");
 
     }
 

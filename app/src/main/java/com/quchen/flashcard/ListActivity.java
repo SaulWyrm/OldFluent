@@ -220,6 +220,8 @@ public class ListActivity extends AppCompatActivity {
                     .setType("text/comma-separated-values")
                     .setAction(Intent.ACTION_GET_CONTENT);
 
+            //intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
+
             startActivityForResult(Intent.createChooser(intent, "Select a file"), GET_FILE_REQUEST_ID);
         }
     }

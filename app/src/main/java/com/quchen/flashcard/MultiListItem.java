@@ -3,9 +3,6 @@ package com.quchen.flashcard;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Lars on 09.02.2018.
- */
 
 public class MultiListItem {
     private final List<ListItem> listItems = new ArrayList<>();
