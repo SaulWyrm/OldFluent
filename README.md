@@ -1,3 +1,6 @@
+
+https://github.com/SaulWyrm/OldFluent/assets/104003925/f532b818-41e8-4779-8abf-2f51f5821ace
+
 # OldFluent
 OldFluent is a flashcards-type app that is used to learn old or rare languages.
 This app has functionality of importing csv files with special syntax (about that later), in which vocabulary and other theory material is stored.
